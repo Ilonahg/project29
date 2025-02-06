@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonproject29"
+version = "0.1.0"
+description = ""
+authors = ["ilonahg <gogilchyn2005ilona@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+pytest = "^8.3.4"
+coverage = "^7.6.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
